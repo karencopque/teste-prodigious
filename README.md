@@ -1,5 +1,13 @@
 # Front-end Junior
 
+Olá, tudo bem?
+
+Gostaria de informar que eu fiz umas pequenas alterações no html, para ficar mais simples para eu me achar.
+
+Att, Karen Copque
+
+
+
 ## Como fazer o teste?
 
   * Crie um fork do projeto
