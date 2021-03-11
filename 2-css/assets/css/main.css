@@ -64,8 +64,6 @@ main {
 }
 main .post {
   background-color: white;
-  width: 900px;
-  height: 640px;
   align-items: right;
 }
 .post {
@@ -117,7 +115,6 @@ main .actions a {
   letter-spacing: 3.9px;
   font-weight: bold;
   color: #3c3b3b;
-  box-sizing: 254px 62px;
   border: solid 1px #eeeeee;
   margin-top: 10px;
 }
@@ -224,33 +221,20 @@ footer .button {
       "main"
       "aside"
       "footer";
+    flex-direction: row;
+    width: 100vh;
   }
-
   header .links {
     visibility: hidden;
   }
+
   aside {
-    align-content: stretch;
-  }
-  main .post {
+    flex-direction: row;
     align-items: center;
     flex-direction: column;
-  }
-  main .post .header {
-    width: 100%;
-  }
-  main .post .image .featured img {
-    width: 100%;
-  }
-  main .post .meta {
-    width: 187px;
-    height: 81px;
-  }
-  aside .mini-posts {
-    width: 100%;
-    flex-direction: row;
-    align-items: flex-end;
     justify-content: space-around;
+    align-items: flex-end;
+    align-content: stretch;
   }
 }
 @media (max-width: 375px) {
