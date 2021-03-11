@@ -1,4 +1,4 @@
-# Front-end Junior
+## Obs: comunicação sobre o teste
 
 Olá, tudo bem?
 
@@ -6,7 +6,7 @@ Gostaria de informar que eu fiz umas pequenas alterações no html do teste de c
 
 Att, Karen Copque
 
-
+# Front-end Junior
 
 ## Como fazer o teste?
 
