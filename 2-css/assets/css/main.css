@@ -76,6 +76,7 @@ main .post {
   margin-top: 50px;
   display: flex-start;
 }
+
 main .post .header .title a {
   text-transform: uppercase;
   text-decoration: none;
@@ -226,6 +227,12 @@ footer .button {
   }
   header .links {
     visibility: hidden;
+  }
+  .post > a.image img {
+    width: 100%;
+  }
+  main .post {
+    width: 75%;
   }
 
   aside {
