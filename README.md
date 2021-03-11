@@ -1,3 +1,7 @@
+##Obs sobre umas alteraçôes no HTML
+
+Gostaria de informar que eu fiz umas pequenas alterações no html do teste de css, para ficar mais simples para eu me achar somente porque sou iniciante ainda.
+
 # Front-end Junior
 
 ## Como fazer o teste?
