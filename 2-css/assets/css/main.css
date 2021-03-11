@@ -143,6 +143,10 @@ aside .mini-posts .mini-post {
   background-color: white;
   margin-top: 10px;
 }
+
+aside .mini-posts .mini-post .image img {
+  width: 100%;
+}
 aside .mini-posts .header .published {
   text-decoration: none;
   color: #808080;
@@ -162,6 +166,10 @@ aside .mini-posts .author img {
 aside .description {
   align-items: left;
   text-align: justify;
+  padding-top: 10px;
+}
+aside .description div {
+  padding-top: 10px;
 }
 aside .description a {
   text-decoration: none;
@@ -200,7 +208,12 @@ footer .secondary_title {
   letter-spacing: 3.8px;
   color: #3c3b3b;
 }
-
+.post .footer .actions a {
+  padding: 10px;
+}
+footer .stats {
+  margin-top: 5px;
+}
 footer p {
   color: #808080;
 }
@@ -212,6 +225,7 @@ footer .button {
   text-decoration: none;
   font-weight: bold;
   letter-spacing: 3.9px;
+  padding: 20px;
 }
 @media (max-width: 768px) {
   body {
@@ -272,6 +286,6 @@ footer .button {
     justify-content: space-around;
     align-items: flex-end;
     align-content: stretch;
-    text-align: center;
+    text-align: left;
   }
 }
