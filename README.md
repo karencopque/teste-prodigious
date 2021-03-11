@@ -1,4 +1,4 @@
-## Obs sobre umas alteraçôes no HTML
+## Obs sobre umas alterações no HTML
 
 Gostaria de informar que eu fiz umas pequenas alterações no html do teste de css, para ficar mais simples para eu me achar somente porque sou iniciante ainda.
 
