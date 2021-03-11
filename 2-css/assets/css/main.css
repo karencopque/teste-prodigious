@@ -10,7 +10,7 @@ body {
   grid-template-areas:
     "header header"
     "aside  main"
-    "footer footer";
+    "footer main";
 }
 header {
   width: 100%;
@@ -238,6 +238,9 @@ footer .button {
       "footer";
     flex-direction: row;
   }
+  header {
+    flex-direction: row;
+  }
   header .links {
     visibility: hidden;
   }
@@ -257,6 +260,9 @@ footer .button {
 
     align-content: stretch;
   }
+  .footer {
+    flex-direction: row;
+  }
 }
 @media (max-width: 375px) {
   body {
@@ -274,11 +280,23 @@ footer .button {
   }
   .post > a.image img {
     width: 100%;
+    padding-top: 20%;
   }
   main .post {
     width: 76%;
   }
-
+  main .post p {
+    text-align: left;
+  }
+  main .post .author {
+    text-align: center;
+  }
+  main .post .title p {
+    text-align: center;
+  }
+  main .post .meta .published {
+    text-align: center;
+  }
   aside {
     flex-direction: row;
     align-items: center;
@@ -287,5 +305,17 @@ footer .button {
     align-items: flex-end;
     align-content: stretch;
     text-align: left;
+  }
+  .footer {
+    flex-direction: row;
+  }
+  .footer .stats {
+    visibility: hidden;
+  }
+  header {
+    flex-direction: row;
+  }
+  header .links {
+    visibility: hidden;
   }
 }
