@@ -2,7 +2,7 @@
 
 Olá, tudo bem?
 
-Gostaria de informar que eu fiz umas pequenas alterações no html, para ficar mais simples para eu me achar.
+Gostaria de informar que eu fiz umas pequenas alterações no html, para ficar mais simples para eu me achar somente porque sou iniciante ainda.
 
 Att, Karen Copque
 
