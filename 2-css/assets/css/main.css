@@ -130,10 +130,17 @@ main .post .footer .stats a {
   letter-spacing: 2px;
   color: #808080;
 }
-aside .mini-posts {
-  width: 409px;
-  height: 205px;
+aside {
+  padding: 14%;
+
+  grid-area: aside;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  align-content: stretch;
 }
+
 aside .mini-posts .mini-post {
   background-color: white;
   margin-top: 10px;
@@ -186,16 +193,7 @@ aside .description .published {
   color: #3c3b3b;
   text-align: left;
 }
-aside {
-  padding: 4%;
 
-  grid-area: aside;
-
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  justify-content: space-around;
-}
 footer {
   box-sizing: border-box;
 }
@@ -220,7 +218,7 @@ footer .button {
 @media (max-width: 768px) {
   body {
     grid-template-columns: 1fr;
-    grid-template-rows: 50px auto 50px;
+    grid-template-rows: 50px auto auto 50px;
     grid-template-areas:
       "header"
       "main"
@@ -231,27 +229,28 @@ footer .button {
   header .links {
     visibility: hidden;
   }
+  aside {
+    align-content: stretch;
+  }
   main .post {
-    width: 768px;
-    height: 235px;
     align-items: center;
     flex-direction: column;
   }
   main .post .header {
-    width: 628px;
-    height: 78px;
+    width: 100%;
   }
   main .post .image .featured img {
-    width: 668px;
-    height: 340px;
+    width: 100%;
   }
   main .post .meta {
     width: 187px;
     height: 81px;
   }
   aside .mini-posts {
-    flex-direction: column;
-    align-items: center;
+    width: 100%;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-around;
   }
 }
 @media (max-width: 375px) {
