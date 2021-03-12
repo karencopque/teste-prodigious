@@ -110,6 +110,10 @@ main .post p {
   color: #3c3b3b;
   letter-spacing: 1.3px;
 }
+.post > .featured > img {
+  width: 100%;
+  height: auto;
+}
 main .actions a {
   text-decoration: none;
   text-transform: uppercase;
@@ -118,6 +122,14 @@ main .actions a {
   color: #3c3b3b;
   border: solid 1px #eeeeee;
   margin-top: 10px;
+}
+.description div {
+  background-color: lightblue;
+  margin: 32px 0;
+}
+.description .image {
+  display: inline-block;
+  float: left;
 }
 main .post .footer .actions a:hover {
   color: red;
@@ -242,10 +254,12 @@ footer .button {
   }
   main {
     padding: 0%;
+    align-items: center;
   }
   main .post header .main_title a {
     text-align: left;
     position: absolute;
+    align-content: stretch;
     border: none;
   }
   header {
@@ -404,6 +418,14 @@ footer .button {
     align-items: flex-end;
     align-content: stretch;
     text-align: left;
+  }
+  aside .mini-posts {
+    display: flex;
+    flex-direction: column;
+  }
+  aside .description {
+    display: flex;
+    flex-direction: column;
   }
   .footer {
     flex-direction: row;
