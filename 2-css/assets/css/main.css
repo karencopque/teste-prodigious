@@ -163,11 +163,6 @@ aside .mini-posts .header a {
 aside .mini-posts .author img {
   border-radius: 50%;
 }
-aside .description {
-  align-items: left;
-  text-align: justify;
-  padding-top: 10px;
-}
 
 .description div {
   padding-top: 10px;
@@ -191,6 +186,7 @@ aside .description .published {
 aside .description .tertiary_title {
   font-weight: bold;
 }
+
 .secondary_title {
   text-transform: uppercase;
   color: #3c3b3b;
@@ -247,7 +243,7 @@ footer .button {
   main {
     padding: 0%;
   }
-  header .main_title a {
+  main .post header .main_title a {
     text-align: left;
     position: absolute;
     border: none;
@@ -348,6 +344,7 @@ footer .button {
     align-content: stretch;
     text-align: left;
   }
+
   .footer {
     flex-direction: row;
   }
