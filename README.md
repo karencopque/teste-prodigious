@@ -1,6 +1,8 @@
 ## Obs sobre umas alterações no HTML
 
  Sou iniciante e tive algumas dificuldades para estilizar o código sem as tags semânticas, por isso, e visto que já tinha um bug onde tags < ul > estavam fechando com  < /div >, eu decidi formatar todo o HTML, espero que não tenha problema, dei o meu melhor para isso :)
+ 
+ So continuo fazendo alteraçoes no meu teste, mesmo apos o prazo e entrega, com o intuito de aprendizagem. :)
 
 # Front-end Junior
 
