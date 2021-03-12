@@ -124,11 +124,9 @@ main .actions a {
   margin-top: 10px;
 }
 .description div {
-  background-color: lightblue;
   margin: 32px 0;
 }
 .description .image {
-  display: inline-block;
   float: left;
 }
 main .post .footer .actions a:hover {
