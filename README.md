@@ -1,6 +1,6 @@
 ## Obs sobre umas alterações no HTML
 
-Gostaria de informar que eu fiz umas pequenas alterações no html do teste de css, para ficar mais simples para eu me achar somente porque sou iniciante ainda.
+ Sou iniciante e tive algumas dificuldades para estilizar o código sem as tags semânticas, por isso, e visto que já tinha um bug onde tags <ul> estavam fechando com </div>, eu decidi formatar todo o HTML, espero que não tenha problema, dei o meu melhor para isso :)
 
 # Front-end Junior
 
