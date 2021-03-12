@@ -123,9 +123,7 @@ main .actions a {
   border: solid 1px #eeeeee;
   margin-top: 10px;
 }
-.description div {
-  margin: 32px 0;
-}
+
 .description .image {
   float: left;
 }
@@ -175,8 +173,8 @@ aside .mini-posts .author img {
 }
 
 .description div {
-  padding-top: 10px;
-  margin-bottom: solid 1px red;
+  padding-top: 5px;
+  margin: 8px;
 }
 
 aside .description a {
@@ -223,8 +221,8 @@ footer .secondary_title {
 .post .footer .actions a {
   padding: 10px;
 }
-footer .stats {
-  margin-top: 5px;
+.post .footer .stats {
+  visibility: hidden;
 }
 footer p {
   color: #808080;
@@ -296,12 +294,10 @@ footer .button {
     padding: 10px;
   }
   .pagination {
-    background-color: lightgreen;
     margin-left: auto;
     margin-right: auto;
   }
   .pagination a.button {
-    background-color: lightcoral;
     padding: 10px;
     align-items: justify;
     border: solid 1px #e1e1e1;
@@ -436,5 +432,15 @@ footer .button {
   }
   header .links {
     visibility: hidden;
+  }
+  .pagination a.button {
+    padding: 6px;
+    display: inline-block;
+    border: solid 1px #e1e1e1;
+
+    display: flex;
+  }
+  .post header meta .name {
+    text-align: justify;
   }
 }
