@@ -168,9 +168,12 @@ aside .description {
   text-align: justify;
   padding-top: 10px;
 }
+
 aside .description div {
   padding-top: 10px;
+  border-bottom: solid 1px red;
 }
+
 aside .description a {
   text-decoration: none;
   text-transform: uppercase;
@@ -238,6 +241,9 @@ footer .button {
       "footer";
     flex-direction: row;
   }
+  main {
+    padding: 0%;
+  }
   header {
     flex-direction: row;
   }
@@ -257,11 +263,27 @@ footer .button {
     align-items: center;
     flex-direction: column;
     justify-content: space-around;
-
+    padding: 0%;
     align-content: stretch;
+  }
+  aside .mini-posts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  aside .description {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  main .post a {
+    padding: 10px;
   }
   .footer {
     flex-direction: row;
+  }
+  .post .footer .stats {
+    visibility: hidden;
   }
 }
 @media (max-width: 375px) {
@@ -277,6 +299,11 @@ footer .button {
   }
   header .links {
     visibility: hidden;
+  }
+  header .main_title a {
+    text-align: left;
+    position: absolute;
+    border: none;
   }
   .post > a.image img {
     width: 100%;
